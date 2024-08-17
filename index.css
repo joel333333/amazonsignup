@@ -1,0 +1,62 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.signup{
+    width: 500px;
+    height: 100%;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(236, 216, 216);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.create{
+    font-size: 35px;
+    text-align: start;
+    
+}
+.amazon{
+    font-size: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.inputs{
+    padding: 10px;
+    width: 460px;
+    border-radius: 5px;
+    border-color: rgb(188, 174, 174);
+    border-width: 2px;
+    border-style: solid;
+}
+.submit_button{
+    padding: 10px;
+    width: 485px;
+    margin-top: 40px;
+    background-color: gold;
+    border: 2px rgb(188, 174, 174) solid ;
+    border-radius: 5px;
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.terms{
+    padding: 30px;
+    font-size: 19px;
+}
